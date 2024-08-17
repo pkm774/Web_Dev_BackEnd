@@ -1,0 +1,28 @@
+<%- include('partials/header.ejs') %>
+<blog class="">
+  <div class="homePage mx-4 py-4">
+    <div class="bgImgDiv">
+      <img class="bgImage flex-shrink-1" src="images/background.jpg" alt="Background image" />
+    </div>
+    <div class="bgTextDiv ms-auto">
+      <h1 class="text-center flex-grow-1" id="welcomeText">Welcome to Blogging Mania</h1>
+      <h3 class="text-center flex-grow-1" id="infoText">A creative Blogging platform for you</h3>
+      <div class="buttonClass">
+        <div class="text-center" id="blogButtonText">Create Your First Blog</div>
+        <div>
+          <a href="/create">
+            <button type="button" class="btn btn-primary btn-md px-4 gap-3" id="blogButton">
+              Create
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</blog>
+<%# <script>
+  setInterval(() => {
+    location.reload();
+  }, 30000); // Refresh every 30 seconds
+</script> %>
+<%- include('partials/footer.ejs') %>
